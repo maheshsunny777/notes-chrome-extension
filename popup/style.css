@@ -1,0 +1,45 @@
+*{
+	font-family:Arial;
+	color: #ababab;
+}
+body{
+	background-color: #2d2d2d;
+}
+#header{
+	text-align: center;
+}
+.mainMenu{
+	display: inline-flex;
+	width: 50%;
+	margin: 5px 25%;
+}
+.btn{
+	width:100px;
+	border: none;
+	border-radius: 5%;
+	padding: 10px;
+	background-color: #f4f4f4;
+	color: #8d2663;
+	font-weight: bold;
+	cursor:pointer;
+	margin: 5px;
+}
+.addNotes{
+	height: 0px;
+	padding: 0px;
+	visibility: hidden;
+}
+.selected{
+	background-color: #8d2663;
+	color:#f4f4f4;
+}
+textarea{
+	font-size: 20px;
+	background-color: #ababab;
+	color: #000000;
+	border:2px solid black;
+	border-radius: 4px;
+}
+.save{
+	margin: 0 39%;
+}

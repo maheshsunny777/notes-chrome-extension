@@ -1,0 +1,20 @@
+{
+	"name":"notes",
+	"manifest_version":2,
+	"version":"0.1",
+	"description":"notes on your browser",
+	"permissions": ["storage","tabs","activeTab"],
+	"content_scripts":[
+		{
+			"matches":[
+				"<all_urls>"
+			],
+			"js":["jquery.js","content.js"]
+		}
+	],
+	"browser_action":{
+		"default_icon":"notes.png",
+		"default_popup":"popup/popup.html"
+	},
+	"content_security_policy": "script-src 'self' https://code.jquery.com/jquery-3.5.1.js; object-src 'self'"
+} 
